@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.title {
+  font-family: Circular, Roboto, "Helvetica Neue", sans-serif;
+}
+.red {
+  color: #270556; /*purplecolor*/
+}
+.size {
+  font-size: 173%;
+}
+.weight {
+  font-weight: 470;
+}

@@ -1,0 +1,22 @@
+.Box-Input {
+  font-size: 37px;
+  width: 793px;
+  border: "transparent";
+  border-radius: 13px;
+}
+.btn-Search {
+  font-size: 37px;
+  border: "transparent";
+  background: #4fa3db;
+  color: white;
+  border-radius: 13px;
+}
+textarea {
+  width: 1038px;
+  height: 390px;
+  font-size: 37px;
+  color: #757575;
+  margin-top: 13px;
+  box-shadow: 0 7px 37px #000;
+  position: absolute;
+}
