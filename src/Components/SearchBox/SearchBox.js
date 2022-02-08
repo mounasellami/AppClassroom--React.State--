@@ -29,8 +29,9 @@ export default class SearchBox extends Component {
             </div>
             
             <form style={{margin:'0 0 0 3%', display:'flex', flexDirection:'column'}}> 
-               <div style={{display:'flex'}}>
-                  <input className='Box-Input' type="search" placeholder="Whrite your question !" />
+               <div style={{display:'flex'}}>              
+                  <input className='Box-Input' type="search" placeholder={this.props.show? `${this.state.userName} whrite your question !` : "Whrite your question" }/>
+                  {console.log(this.state.show)}
                   <button className='btn-Search'>Send it to {this.state.firstName} </button>
                </div>
                <div style={{display:'flex'}}>

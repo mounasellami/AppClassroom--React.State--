@@ -30,13 +30,13 @@ export default class App extends Component {
     // console.log("App.js render")
     return(
       <div>
-          <Header />
+          <Header show={this.state.show} />
         <div className='Singn-in'>
           <button style={stylebutton} onClick={ ()=>this.setState({show: !this.state.show}) }>Sign in </button>
           { this.state.show && <Profile />}
         </div>
           <About />
-          <SearchBox />
+          <SearchBox show={this.state.show}/>
           <Footer />
      </div>
     )

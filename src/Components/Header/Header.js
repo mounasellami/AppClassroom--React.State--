@@ -40,11 +40,10 @@ export default class Header extends Component {
           </Nav>
           <Nav>
           
-          <button onClick={this.handleClick}>Sign-in</button> 
-
+          {/* <button onClick={this.handleClick}>Sign-in</button>  */}
             <NavDropdown title='Join our classroom' className='justify-content-end' > 
               <div className='image-join'>
-                <img src={this.state.img}   // '/JoinOurClassroom-pub.png'
+                <img src={this.props.show? "/ProfilePhoto.jpg" : "/JoinOurClassroom-pub.png"  }   // '/JoinOurClassroom-pub.png'
                      width='40px'
                      height='40px'
                      style={{display:'flex', JustifyContent:'center', borderRadius:'50%', marginLeft:'1%'}}
